@@ -1,0 +1,19 @@
+/* src/index.css */
+:root {
+  --bg-dark: #0a0a0a;
+  --text-white: #ffffff;
+  --accent-blue: #3b82f6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-dark);
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
