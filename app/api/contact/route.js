@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import connectDB from "@/lib/mongodb";
-import ContactLead from "@/models/ContactLead";
+import ContactLead from "@/models/contactlead";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
