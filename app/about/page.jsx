@@ -129,7 +129,7 @@ export default function AboutPage() {
               playsInline
               preload="auto"
             >
-              <source src="/about/drone.mp4" type="video/mp4" />
+              <source src="/about/Drone.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
 
