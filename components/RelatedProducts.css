@@ -1,0 +1,9 @@
+/* RelatedProducts.css — AeroDrone Dark Theme */
+.related-products { padding: 3rem 0; }
+.related-products h2 { font-size: 1.4rem; margin-bottom: 1.5rem; text-align: center; }
+.related-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.related-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; cursor: pointer; transition: all 0.3s var(--ease-smooth); }
+.related-card:hover { border-color: rgba(0,229,255,0.2); transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
+.related-card img { width: 100%; height: 160px; object-fit: cover; }
+.related-card h4 { padding: 0.8rem; font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; color: var(--text-primary); }
+.related-card .rel-price { padding: 0 0.8rem 0.8rem; color: var(--accent-cyan); font-weight: 600; font-size: 0.95rem; }

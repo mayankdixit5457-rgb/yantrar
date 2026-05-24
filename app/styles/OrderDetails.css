@@ -1,0 +1,101 @@
+/* OrderDetails.css — AeroDrone Dark Futuristic Theme */
+.order-details-page {
+  padding: 6rem 5% 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+.order-details-page h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.order-details-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+}
+
+.order-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.meta-item {
+  font-size: 0.85rem;
+}
+
+.meta-item .meta-label {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.meta-item .meta-value {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.order-items-list {
+  margin-bottom: 1.5rem;
+}
+
+.order-detail-item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  align-items: center;
+}
+
+.order-detail-item:last-child {
+  border-bottom: none;
+}
+
+.order-detail-item img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.order-detail-item .item-info h4 {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text-primary);
+}
+
+.order-detail-item .item-info p {
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+}
+
+.order-detail-item .item-price {
+  margin-left: auto;
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+.order-total-section {
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-subtle);
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.order-total-section .total-amount {
+  color: var(--accent-cyan);
+  font-family: var(--font-heading);
+}

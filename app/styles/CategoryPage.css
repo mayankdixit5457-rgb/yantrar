@@ -1,0 +1,19 @@
+/* CategoryPage.css — AeroDrone Dark Futuristic Theme */
+.category-page {
+  padding: 6rem 5% 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+.category-page h1 {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.category-page .category-desc {
+  text-align: center;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+}

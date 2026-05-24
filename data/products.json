@@ -1,0 +1,437 @@
+[
+  {
+    "id": 1,
+    "name": "SkyHawk Pro X",
+    "slug": "skyhawk-pro-x",
+    "category": "camera-drones",
+    "price": 1299,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600",
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "Professional 4K/60fps camera drone with 3-axis gimbal and 45-min flight time.",
+    "description": "The SkyHawk Pro X is our flagship camera drone, featuring a 1-inch CMOS sensor, 4K/60fps recording, 3-axis mechanical gimbal, and intelligent flight modes including waypoint navigation and ActiveTrack 5.0.",
+    "specs": ["Camera: 4K/60fps 1\" CMOS", "Gimbal: 3-axis mechanical", "Flight Time: 45 min", "Range: 15km", "Weight: 899g"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Nimbus Mini",
+    "slug": "nimbus-mini",
+    "category": "camera-drones",
+    "price": 499,
+    "images": [
+      "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600",
+      "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600"
+    ],
+    "shortDescription": "Ultra-compact 4K drone under 249g — no registration required.",
+    "description": "The Nimbus Mini packs a 4K camera and 3-axis gimbal into a foldable frame weighing just 249g. Perfect for travel photographers who want cinema-quality footage anywhere.",
+    "specs": ["Camera: 4K/30fps", "Weight: 249g", "Flight Time: 34 min", "Foldable: Yes", "Wind Resistance: Level 5"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "CineHawk 8K",
+    "slug": "cinehawk-8k",
+    "category": "camera-drones",
+    "price": 2499,
+    "images": [
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=600",
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "Cinema-grade 8K drone with Hasselblad optics and omnidirectional obstacle sensing.",
+    "description": "Purpose-built for professional filmmakers. The CineHawk 8K features a Hasselblad camera with 8K/25fps and 4K/120fps capabilities, 12.8 stops of dynamic range, and omnidirectional obstacle avoidance.",
+    "specs": ["Camera: 8K/25fps Hasselblad", "Sensor: 4/3\" CMOS", "Flight Time: 46 min", "Obstacle Sensing: Omnidirectional", "D-Log M / HLG"],
+    "featured": true
+  },
+  {
+    "id": 4,
+    "name": "Phantom Racer V2",
+    "slug": "phantom-racer-v2",
+    "category": "racing-drones",
+    "price": 699,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600",
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "Competition-grade FPV racing quad with sub-ms latency and 160mph top speed.",
+    "description": "Born from championship DNA, the Phantom Racer V2 delivers blistering speed with sub-millisecond control latency. Carbon fiber unibody frame, 2806.5 motors, and tuned PID profiles for instant response.",
+    "specs": ["Top Speed: 160+ mph", "Motors: 2806.5 2450KV", "Frame: Carbon Fiber", "Latency: <1ms", "Weight: 410g"],
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "TerraScout Industrial",
+    "slug": "terrascout-industrial",
+    "category": "industrial-drones",
+    "price": 4999,
+    "images": [
+      "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600",
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=600"
+    ],
+    "shortDescription": "Enterprise survey drone with LiDAR, thermal imaging, and RTK positioning.",
+    "description": "The TerraScout is built for demanding industrial applications. Equipped with LiDAR scanning, thermal camera, RTK centimeter-precision positioning, and IP45 weather resistance for year-round operations.",
+    "specs": ["LiDAR: Livox Mid-360", "Thermal: 640x512 FLIR", "RTK: cm-level accuracy", "Flight Time: 55 min", "IP Rating: IP45"],
+    "featured": true
+  },
+  {
+    "id": 6,
+    "name": "CadetWing Trainer",
+    "slug": "cadetwing-trainer",
+    "category": "camera-drones",
+    "price": 299,
+    "images": [
+      "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600",
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "Beginner-friendly drone with GPS return-to-home and auto-hover.",
+    "description": "Perfect first drone with safety features like auto-hover, GPS return-to-home, and geofencing. 2K camera for learning aerial photography with training wheels you can turn off as skills grow.",
+    "specs": ["Camera: 2K/30fps", "GPS: Return-to-Home", "Flight Time: 28 min", "Auto-Hover: Yes", "Geofencing: Built-in"],
+    "featured": true
+  },
+  {
+    "id": 7,
+    "name": "VelocityX FPV",
+    "slug": "velocityx-fpv",
+    "category": "racing-drones",
+    "price": 549,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600",
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "Entry-level FPV racing drone with HD digital video transmission.",
+    "description": "Step into FPV racing with digital HD video feed, durable crash-resistant frame, and pre-tuned flight controller. Perfect for pilots transitioning from camera drones to racing.",
+    "specs": ["Top Speed: 100+ mph", "Video TX: HD Digital", "Frame: 5\" Carbon", "Flight Time: 8 min", "Battery: 6S 1300mAh"],
+    "featured": true
+  },
+  {
+    "id": 8,
+    "name": "AgriSpray Pro",
+    "slug": "agrispray-pro",
+    "category": "industrial-drones",
+    "price": 8999,
+    "images": [
+      "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600",
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=600"
+    ],
+    "shortDescription": "Agricultural spraying drone with 20L tank and terrain-following radar.",
+    "description": "Cover up to 40 acres per hour with precision variable-rate spraying. Terrain-following radar maintains consistent altitude over uneven ground. Supports multiple spray patterns.",
+    "specs": ["Tank: 20L capacity", "Coverage: 40 acres/hr", "Terrain Radar: Yes", "Nozzles: 8 precision", "Flight Time: 15 min/load"],
+    "featured": false
+  },
+  {
+    "id": 9,
+    "name": "AeroVolt 2806.5 Motors (4-Pack)",
+    "slug": "aerovolt-2806-motors",
+    "category": "drone-parts",
+    "price": 129,
+    "images": [
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600",
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600"
+    ],
+    "shortDescription": "High-performance 2806.5 2450KV brushless motors for 5\" racing quads.",
+    "description": "Competition-proven motors with titanium shaft, N52H magnets, and Japanese NSK bearings. Optimized for 5-inch propellers on 6S power systems.",
+    "specs": ["Size: 2806.5", "KV: 2450", "Bearings: NSK Japan", "Shaft: Titanium", "Weight: 34.5g each"],
+    "featured": false
+  },
+  {
+    "id": 10,
+    "name": "StrikeFrame 5\" Carbon Frame",
+    "slug": "strikeframe-5-carbon",
+    "category": "drone-parts",
+    "price": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600",
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "True-X 5\" carbon fiber racing frame with replaceable arms.",
+    "description": "3K carbon fiber construction with 5mm arms designed for crash survivability. Replaceable arm design means you swap one arm instead of the whole frame.",
+    "specs": ["Wheelbase: 220mm", "Carbon: 3K Twill", "Arm Thickness: 5mm", "Weight: 115g", "Stack: 30.5x30.5mm"],
+    "featured": false
+  },
+  {
+    "id": 11,
+    "name": "NexusFC Flight Controller",
+    "slug": "nexusfc-flight-controller",
+    "category": "drone-parts",
+    "price": 59,
+    "images": [
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "F7 flight controller with Betaflight support and barometer.",
+    "description": "STM32F722 processor, ICM42688P gyro, built-in barometer, and onboard blackbox storage. Supports Betaflight, iNav, and KISS firmware.",
+    "specs": ["Processor: STM32F722", "Gyro: ICM42688P", "Barometer: BMP280", "UARTs: 6", "Size: 30.5x30.5mm"],
+    "featured": false
+  },
+  {
+    "id": 12,
+    "name": "Endurance 6S 1500mAh LiPo",
+    "slug": "endurance-6s-lipo",
+    "category": "drone-parts",
+    "price": 45,
+    "images": [
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "High-discharge 6S 1500mAh 120C LiPo battery for racing drones.",
+    "description": "Premium lithium polymer cells with consistent voltage delivery through aggressive maneuvers. XT60 connector, balance lead included.",
+    "specs": ["Cells: 6S (22.2V)", "Capacity: 1500mAh", "Discharge: 120C", "Connector: XT60", "Weight: 258g"],
+    "featured": false
+  },
+  {
+    "id": 13,
+    "name": "Stealth Tri-Blade Props (8-Pack)",
+    "slug": "stealth-tri-blade-props",
+    "category": "drone-parts",
+    "price": 19,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600"
+    ],
+    "shortDescription": "Ultra-quiet tri-blade propellers for reduced noise and better efficiency.",
+    "description": "Aerodynamically optimized 3-blade design reduces noise by 40% compared to standard props while maintaining thrust efficiency. Polycarbonate construction.",
+    "specs": ["Size: 5.1x3.1x3", "Blades: 3", "Material: Polycarbonate", "Pack: 8 (4CW + 4CCW)", "Hub: T-Mount"],
+    "featured": false
+  },
+  {
+    "id": 14,
+    "name": "HorizonView FPV Goggles",
+    "slug": "horizonview-fpv-goggles",
+    "category": "drone-accessories",
+    "price": 449,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600",
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "Dual OLED FPV goggles with 1080p micro-displays and DVR recording.",
+    "description": "Immersive dual 1080p OLED displays with 50ms low-latency digital HD feed. Built-in DVR, head tracking, and adjustable IPD. Includes carrying case.",
+    "specs": ["Displays: Dual 1080p OLED", "Latency: <50ms", "FOV: 44°", "DVR: Built-in", "Battery: 3hrs"],
+    "featured": false
+  },
+  {
+    "id": 15,
+    "name": "SmartPilot Controller",
+    "slug": "smartpilot-controller",
+    "category": "drone-accessories",
+    "price": 349,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "Pro-grade controller with 5.5\" display, haptic feedback, and 15km range.",
+    "description": "Built-in 5.5-inch 1080p touchscreen, dual-band transmission for 15km range, customizable button mapping, and precision hall-effect gimbals.",
+    "specs": ["Screen: 5.5\" 1080p", "Range: 15km", "Gimbals: Hall-Effect", "Battery: 6hrs", "Haptic: Yes"],
+    "featured": false
+  },
+  {
+    "id": 16,
+    "name": "Pro ND Filter Set",
+    "slug": "pro-nd-filter-set",
+    "category": "drone-accessories",
+    "price": 79,
+    "images": [
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "6-piece ND filter set (ND4/8/16/32/64/CPL) for cinematic drone footage.",
+    "description": "Multi-coated optical glass ND filters designed for SkyHawk and CineHawk series. Reduces shutter speed for natural motion blur in video.",
+    "specs": ["Filters: ND4, ND8, ND16, ND32, ND64, CPL", "Glass: Multi-coated optical", "Fit: SkyHawk/CineHawk", "Case: Included"],
+    "featured": false
+  },
+  {
+    "id": 17,
+    "name": "AeroShield Hard Case",
+    "slug": "aeroshield-hard-case",
+    "category": "drone-accessories",
+    "price": 149,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "Military-spec hard case with custom foam insert and waterproof seal.",
+    "description": "IP67-rated polycarbonate shell with pressure equalization valve, custom-cut foam insert, and TSA-approved locks. Fits SkyHawk Pro X with all accessories.",
+    "specs": ["Rating: IP67", "Material: Polycarbonate", "Lock: TSA-Approved", "Foam: Custom-cut", "Fit: SkyHawk Pro X"],
+    "featured": false
+  },
+  {
+    "id": 18,
+    "name": "AeroLand Pad Pro",
+    "slug": "aeroland-pad-pro",
+    "category": "drone-accessories",
+    "price": 39,
+    "images": [
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "75cm double-sided landing pad with weighted edges and reflective markers.",
+    "description": "High-visibility orange/blue landing pad with weighted edges for wind resistance. Reflective markers visible from 100m altitude. Folds to 30cm.",
+    "specs": ["Diameter: 75cm", "Double-sided: Orange/Blue", "Weighted Edges: Yes", "Reflective: Yes", "Folds to: 30cm"],
+    "featured": false
+  },
+  {
+    "id": 19,
+    "name": "Explorer DIY Kit",
+    "slug": "explorer-diy-kit",
+    "category": "drone-kits",
+    "price": 399,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600",
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "Complete build-your-own 5\" FPV drone kit with step-by-step video guide.",
+    "description": "Everything you need to build your first FPV quad from scratch: frame, motors, ESC, FC, camera, VTX, receiver, battery, and charger. Includes 6-hour video build course.",
+    "specs": ["Frame: 5\" Carbon", "Motors: 2306 2450KV", "FC/ESC: F4 Stack", "Camera: Micro CMOS", "Video Course: 6hrs"],
+    "featured": false
+  },
+  {
+    "id": 20,
+    "name": "Starter Kit Pro",
+    "slug": "starter-kit-pro",
+    "category": "drone-kits",
+    "price": 599,
+    "images": [
+      "https://images.unsplash.com/photo-1579829366248-204fe8413f31?w=600",
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "Ready-to-fly starter bundle: CadetWing drone + controller + 3 batteries + case.",
+    "description": "The perfect gift for aspiring pilots. Includes CadetWing Trainer drone, SmartPilot controller, 3 batteries for extended sessions, carrying case, and 30-day online pilot course.",
+    "specs": ["Drone: CadetWing Trainer", "Controller: SmartPilot", "Batteries: 3x included", "Case: Soft-shell", "Course: 30-day online"],
+    "featured": false
+  },
+  {
+    "id": 21,
+    "name": "Endurance 4S Camera Battery",
+    "slug": "endurance-4s-camera-battery",
+    "category": "drone-parts",
+    "price": 89,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "High-capacity 4S 5000mAh intelligent battery for SkyHawk series.",
+    "description": "Smart battery with built-in charge management, temperature monitoring, and remaining capacity display. Optimized for SkyHawk Pro X with 45-minute flight time.",
+    "specs": ["Cells: 4S (14.8V)", "Capacity: 5000mAh", "Smart BMS: Yes", "Cycles: 500+", "Weight: 480g"],
+    "featured": false
+  },
+  {
+    "id": 22,
+    "name": "ThermalEye 640 Camera Module",
+    "slug": "thermaleye-640-camera",
+    "category": "drone-parts",
+    "price": 799,
+    "images": [
+      "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600"
+    ],
+    "shortDescription": "640x512 thermal imaging camera module for TerraScout drones.",
+    "description": "FLIR Lepton 3.5 thermal module with 640x512 resolution and radiometric temperature measurement. Detect heat signatures, water leaks, and electrical faults from altitude.",
+    "specs": ["Resolution: 640x512", "Sensor: FLIR Lepton 3.5", "Temp Range: -40° to 550°C", "Radiometric: Yes", "Weight: 45g"],
+    "featured": false
+  },
+  {
+    "id": 23,
+    "name": "QuickCharge 6-Port Hub",
+    "slug": "quickcharge-6port-hub",
+    "category": "drone-accessories",
+    "price": 129,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "Charge 6 batteries simultaneously with intelligent power distribution.",
+    "description": "Smart charging hub with individual cell monitoring, storage charge mode, and firmware updates. Compatible with all AeroDrone battery types.",
+    "specs": ["Ports: 6", "Power: 1200W", "Display: Per-cell voltage", "Modes: Charge/Storage/Discharge", "Safety: Over-temp/Over-charge"],
+    "featured": false
+  },
+  {
+    "id": 24,
+    "name": "WindRider Long-Range",
+    "slug": "windrider-long-range",
+    "category": "camera-drones",
+    "price": 899,
+    "images": [
+      "https://images.unsplash.com/photo-1527977966376-1c8408f9f108?w=600",
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "Long-range exploration drone with 20km range and 50-min flight time.",
+    "description": "Built for exploration and mapping, the WindRider features dual-band 20km video link, 50-minute flight time, and 4K camera. Perfect for coastline surveys and mountain exploration.",
+    "specs": ["Camera: 4K/30fps", "Range: 20km", "Flight Time: 50 min", "GPS: Dual-band RTK", "Wind: Level 6"],
+    "featured": false
+  },
+  {
+    "id": 25,
+    "name": "Micro Whoop Indoor Kit",
+    "slug": "micro-whoop-indoor-kit",
+    "category": "drone-kits",
+    "price": 149,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600"
+    ],
+    "shortDescription": "Tiny whoop indoor FPV kit with prop guards and HD camera.",
+    "description": "Fly FPV indoors safely with ducted prop guards, HD camera, and lightweight 1S power system. Includes 4 batteries and USB charger.",
+    "specs": ["Size: 65mm", "Weight: 28g", "Camera: HD 1080p", "Batteries: 4x 1S 300mAh", "Prop Guards: Integrated"],
+    "featured": false
+  },
+  {
+    "id": 26,
+    "name": "DroneShield Signal Tracker",
+    "slug": "droneshield-signal-tracker",
+    "category": "drone-accessories",
+    "price": 199,
+    "images": [
+      "https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?w=600"
+    ],
+    "shortDescription": "GPS tracker and signal booster for extended range operations.",
+    "description": "Boost your control link range by 40% and track your drone in real-time via smartphone app. Built-in LTE backup for beyond-visual-line-of-sight recovery.",
+    "specs": ["Range Boost: +40%", "GPS Tracker: Real-time", "LTE Backup: Yes", "Battery: 8hrs", "Weight: 35g"],
+    "featured": false
+  },
+  {
+    "id": 27,
+    "name": "SurveyPro Mapping Software",
+    "slug": "surveypro-mapping-software",
+    "category": "drone-accessories",
+    "price": 299,
+    "images": [
+      "https://images.unsplash.com/photo-1508444845599-5c89863b1c44?w=600"
+    ],
+    "shortDescription": "Professional photogrammetry and 3D mapping software — 1-year license.",
+    "description": "Process drone imagery into orthomosaics, 3D models, point clouds, and DSMs. Supports automated flight planning and NDVI analysis for agriculture.",
+    "specs": ["License: 1-year", "Output: Orthomosaic/3D/DSM", "NDVI: Yes", "Flight Planning: Automated", "Format: GeoTIFF/OBJ/LAS"],
+    "featured": false
+  },
+  {
+    "id": 28,
+    "name": "Crossfire Long-Range RX",
+    "slug": "crossfire-long-range-rx",
+    "category": "drone-parts",
+    "price": 39,
+    "images": [
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "915MHz long-range receiver for extreme distance FPV flights.",
+    "description": "TBS Crossfire Nano RX with telemetry feedback, 100km+ range capability, and ultra-low latency for precision control at distance.",
+    "specs": ["Frequency: 915MHz", "Range: 100km+", "Telemetry: Bidirectional", "Weight: 1.5g", "Latency: <5ms"],
+    "featured": false
+  },
+  {
+    "id": 29,
+    "name": "NightHawk LED System",
+    "slug": "nighthawk-led-system",
+    "category": "drone-accessories",
+    "price": 49,
+    "images": [
+      "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=600"
+    ],
+    "shortDescription": "FAA-compliant LED strobe and navigation light system for night flights.",
+    "description": "Programmable RGB LED system with anti-collision strobes, orientation indicators, and remote control. Exceeds FAA Part 107 night flight requirements.",
+    "specs": ["LEDs: 4x RGB programmable", "Strobe: FAA-compliant", "Control: Wireless remote", "Battery: 10hrs", "Weight: 12g"],
+    "featured": false
+  },
+  {
+    "id": 30,
+    "name": "Advanced Racing Kit",
+    "slug": "advanced-racing-kit",
+    "category": "drone-kits",
+    "price": 899,
+    "images": [
+      "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?w=600",
+      "https://images.unsplash.com/photo-1506947411487-a56738b4430a?w=600"
+    ],
+    "shortDescription": "Competition-ready FPV racing bundle: Phantom Racer + goggles + controller + batteries.",
+    "description": "Everything a serious racer needs: Phantom Racer V2, HorizonView FPV Goggles, racing controller, 4x race batteries, charger, and tool kit. Ready for race day.",
+    "specs": ["Drone: Phantom Racer V2", "Goggles: HorizonView", "Batteries: 4x 6S", "Charger: Dual-port", "Tools: Complete kit"],
+    "featured": false
+  }
+]

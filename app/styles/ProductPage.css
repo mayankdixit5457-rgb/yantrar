@@ -1,0 +1,138 @@
+/* ProductPage.css — AeroDrone Dark Futuristic Theme */
+.product-page {
+  padding: 6rem 5% 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+.product-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.product-images {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.product-images .main-image {
+  width: 100%;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.product-images .main-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.product-images .thumb-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.product-images .thumb-row img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  cursor: pointer;
+  border: 2px solid var(--border-subtle);
+  transition: all 0.3s;
+}
+
+.product-images .thumb-row img:hover,
+.product-images .thumb-row img.active {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
+
+.product-details h1 {
+  font-family: var(--font-body);
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.product-details .price {
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  color: var(--accent-cyan);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px rgba(0, 229, 255, 0.2);
+}
+
+.product-details .description {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.product-details .specs-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.product-details .specs-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  font-family: var(--font-mono);
+}
+
+.product-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.product-actions button {
+  flex: 1;
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s var(--ease-smooth);
+}
+
+.product-actions .buy-now {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-blue));
+  color: var(--bg-dark);
+  border: none;
+  box-shadow: 0 4px 20px rgba(0, 229, 255, 0.3);
+}
+
+.product-actions .buy-now:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(0, 229, 255, 0.4);
+}
+
+.product-actions .add-cart {
+  background: transparent;
+  color: var(--accent-cyan);
+  border: 1px solid rgba(0, 229, 255, 0.25);
+}
+
+.product-actions .add-cart:hover {
+  background: rgba(0, 229, 255, 0.08);
+  border-color: var(--accent-cyan);
+}
+
+@media (max-width: 768px) {
+  .product-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,9 @@
+/* YouMayAlsoLike.css — AeroDrone Dark Theme */
+.you-may-like { padding: 3rem 0; }
+.you-may-like h2 { font-size: 1.4rem; margin-bottom: 1.5rem; text-align: center; }
+.also-like-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.also-like-card { background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; cursor: pointer; transition: all 0.3s var(--ease-smooth); }
+.also-like-card:hover { border-color: rgba(0,229,255,0.2); transform: translateY(-4px); box-shadow: var(--shadow-card-hover); }
+.also-like-card img { width: 100%; height: 160px; object-fit: cover; }
+.also-like-card h4 { padding: 0.8rem; font-family: var(--font-body); font-size: 0.88rem; font-weight: 600; color: var(--text-primary); }
+.also-like-card .like-price { padding: 0 0.8rem 0.8rem; color: var(--accent-cyan); font-weight: 600; font-size: 0.95rem; }

@@ -1,0 +1,116 @@
+/* MyOrders.css — AeroDrone Dark Futuristic Theme */
+.my-orders-page {
+  padding: 6rem 5% 3rem;
+  max-width: 900px;
+  margin: 0 auto;
+  min-height: 60vh;
+}
+
+.my-orders-page h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.order-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  transition: all 0.3s var(--ease-smooth);
+  cursor: pointer;
+}
+
+.order-card:hover {
+  border-color: rgba(0, 229, 255, 0.2);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.order-id {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--accent-cyan);
+}
+
+.order-status {
+  padding: 0.3rem 0.8rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.order-status.pending {
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--accent-orange);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+}
+
+.order-status.shipped {
+  background: rgba(59, 130, 246, 0.1);
+  color: var(--accent-blue);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.order-status.delivered {
+  background: rgba(57, 255, 20, 0.08);
+  color: var(--accent-neon-green);
+  border: 1px solid rgba(57, 255, 20, 0.2);
+}
+
+.order-items {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.order-items img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-subtle);
+}
+
+.order-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--border-subtle);
+}
+
+.order-date {
+  color: var(--text-muted);
+  font-size: 0.82rem;
+}
+
+.order-total {
+  color: var(--accent-cyan);
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+.no-orders {
+  text-align: center;
+  color: var(--text-secondary);
+  padding: 3rem;
+  font-size: 1.05rem;
+}
