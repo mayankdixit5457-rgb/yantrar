@@ -396,29 +396,33 @@
 	color: #b0b0bb;
 	line-height: 1.8;
 }
-
 .spec-table {
-	display: flex;
-	flex-direction: column;
-	gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .spec-row {
-	display: flex;
-	justify-content: space-between;
-	padding: 16px 18px;
-	background: #17171d;
-	border-radius: 14px;
-	font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 24px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 14px;
 }
 
-.spec-row span:first-child {
-	color: white;
-	font-weight: 700;
+.spec-label {
+  font-weight: 600;
+  color: white;
+  font-size: 15px;
 }
 
-.spec-row span:last-child {
-	color: #aaaab5;
+.spec-value {
+  color: #b8c2d0;
+  text-align: right;
+  max-width: 55%;
+  font-size: 15px;
 }
 
 /* REVIEWS */

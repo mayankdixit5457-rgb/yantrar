@@ -342,17 +342,19 @@ export default function PremiumProductPage({
 						{activeTab ===
 							"specifications" && (
 							<div className="spec-table">
-								{product.specs?.map(
-									(spec, i) => (
-										<div
-											key={i}
-											className="spec-row"
-										>
-											<span>Specification</span>
-											<span>{spec}</span>
-										</div>
-									)
-								)}
+
+
+
+								{product.specs?.map((spec, i) => {
+								const [label, value] = spec.split(":");
+
+								return (
+									<div key={i} className="spec-row">
+									<span className="spec-label">{label}</span>
+									<span className="spec-value">{value}</span>
+									</div>
+								);
+								})}
 							</div>
 						)}
 					</div>
