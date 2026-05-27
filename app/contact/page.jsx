@@ -134,10 +134,10 @@ export default function Contact() {
 							<p className="card-desc">
 								For detailed business inquiries
 							</p>
-							<p className="card-detail">mayankdixit1221@gmail.com</p>
+							<p className="card-detail">info@yantrar.com</p>
 
 							<a
-								href="mailto:mayankdixit1221@gmail.com"
+								href="mailto:info@yantrar.com"
 								className="card-button"
 							>
 								Send Email →
