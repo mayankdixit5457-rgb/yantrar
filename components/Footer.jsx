@@ -80,15 +80,15 @@ export default function Footer() {
 
           <p className="footer-contact-item">
             <FiMail />
-            <a href="mailto:yantrarinfo@gmail.com">
-              yantrarinfo@gmail.com
+            <a href="mailto:info@yantrar.com">
+              info@yantrar.com
             </a>
           </p>
 
           <p className="footer-contact-item">
             <FiPhone />
-            <a href="tel:+919116755457">
-              +91 9116755457
+            <a href="tel:+918005572395">
+              +91 8005572395
             </a>
           </p>
 
@@ -99,14 +99,14 @@ export default function Footer() {
 
 			<div className="footer-social">
 			<a
-				href="mailto:yantrarinfo@gmail.com"
+				href="mailto:info@yantrar.com"
 				aria-label="Email"
 			>
 				<FiMail />
 			</a>
 
 			<a
-				href="https://wa.me/919116755457"
+				href="https://wa.me/918005572395"
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="WhatsApp"
@@ -115,7 +115,7 @@ export default function Footer() {
 			</a>
 
 			<a
-				href="tel:+919116755457"
+				href="tel:+918005572395"
 				aria-label="Call Us"
 			>
 				<FiPhone />

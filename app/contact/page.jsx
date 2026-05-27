@@ -101,7 +101,7 @@ export default function Contact() {
 							<p className="card-detail">+91 91167 55457</p>
 
 							<a
-								href="tel:+919116755457"
+								href="tel:+918005572395"
 								className="card-button"
 							>
 								Call Now →
@@ -119,7 +119,7 @@ export default function Contact() {
 							</p>
 
 							<a
-								href="https://wa.me/919116755457"
+								href="https://wa.me/918005572395"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="card-button"
@@ -201,7 +201,7 @@ export default function Contact() {
 										required
 										maxLength={10}
 										pattern="[6-9]{1}[0-9]{9}"
-										placeholder="9116755457"
+										placeholder="8005572395"
 									/>
 								</div>
 
@@ -313,7 +313,7 @@ export default function Contact() {
 								</p>
 
 								<a
-									href="https://wa.me/919116755457"
+									href="https://wa.me/918005572395"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="whatsapp-btn"
