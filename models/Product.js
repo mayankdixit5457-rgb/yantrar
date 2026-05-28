@@ -62,6 +62,47 @@ const ProductSchema = new mongoose.Schema(
 			default: false,
 		},
 
+
+
+
+
+
+
+		reviews: [
+			{
+				name: {
+					type: String,
+					required: true,
+					trim: true,
+				},
+
+				rating: {
+					type: Number,
+					required: true,
+					min: 1,
+					max: 5,
+				},
+
+				title: {
+					type: String,
+					required: true,
+					trim: true,
+				},
+
+				text: {
+					type: String,
+					required: true,
+					trim: true,
+				},
+
+				createdAt: {
+					type: Date,
+					default: Date.now,
+				},
+			},
+		],
+
+
 		inStock: {
 			type: Boolean,
 			default: true,

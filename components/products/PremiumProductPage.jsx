@@ -4,6 +4,7 @@ import { useContext, useState } from "react";
 import { useRouter } from "next/navigation";
 import { CartContext } from "@/context/CartContext";
 import ReviewModal from "./ReviewModal";
+import RelatedProducts from "@/components/RelatedProducts";
 import Link from "next/link";
 import "./PremiumProductPage.css";
 
@@ -30,7 +31,20 @@ export default function PremiumProductPage({
 		useContext(CartContext);
 
 	const images = product.images || [];
-	const reviews = product.reviews || [];
+	const reviews =
+	(product.reviews || []).slice().reverse();
+
+
+	const averageRating =
+		reviews.length > 0
+			? (
+					reviews.reduce(
+						(sum, review) =>
+							sum + review.rating,
+						0
+					) / reviews.length
+			).toFixed(1)
+			: 0;
 
 	const [currentImageIndex, setCurrentImageIndex] =
 		useState(0);
@@ -178,18 +192,22 @@ export default function PremiumProductPage({
 
 						<div className="rating-row">
 							<div className="stars">
-								{[...Array(5)].map((_, i) => (
+								{[1, 2, 3, 4, 5].map((star) => (
 									<Star
-										key={i}
+										key={star}
 										size={14}
-										fill="#f5b301"
+										fill={
+											star <= Math.round(averageRating)
+												? "#f5b301"
+												: "transparent"
+										}
 										stroke="#f5b301"
 									/>
 								))}
 							</div>
 
 							<span>
-								4.8 ({reviews.length} Reviews)
+								{averageRating} ({reviews.length} Reviews)
 							</span>
 						</div>
 
@@ -365,14 +383,21 @@ export default function PremiumProductPage({
 
 					<div className="reviews-left">
 						<h2>Customer Reviews</h2>
-						<div className="rating-big">4.8</div>
+			
+						<div className="rating-big">
+							{averageRating}
+						</div>
 
 						<div className="stars big">
-							{[...Array(5)].map((_, i) => (
+							{[1, 2, 3, 4, 5].map((star) => (
 								<Star
-									key={i}
+									key={star}
 									size={18}
-									fill="#f5b301"
+									fill={
+										star <= Math.round(averageRating)
+											? "#f5b301"
+											: "transparent"
+									}
 									stroke="#f5b301"
 								/>
 							))}
@@ -401,15 +426,15 @@ export default function PremiumProductPage({
 								<h4>{review.name}</h4>
 
 								<div className="review-stars">
-									{[
-										...Array(
-											review.rating
-										),
-									].map((_, i) => (
+									{[1, 2, 3, 4, 5].map((star) => (
 										<Star
-											key={i}
+											key={star}
 											size={13}
-											fill="#f5b301"
+											fill={
+												star <= review.rating
+													? "#f5b301"
+													: "transparent"
+											}
 											stroke="#f5b301"
 										/>
 									))}
@@ -420,27 +445,30 @@ export default function PremiumProductPage({
 							</div>
 						))}
 
-						<button
-							className="toggle-reviews-btn"
-							onClick={() =>
-								setShowAllReviews(
-									!showAllReviews
-								)
-							}
-						>
-							{showAllReviews
-								? "Show Less"
-								: "View All Reviews"}
-						</button>
+						{reviews.length > 4 && (
+							<button
+								className="toggle-reviews-btn"
+								onClick={() =>
+									setShowAllReviews(!showAllReviews)
+								}
+							>
+								{showAllReviews
+									? "Show Less"
+									: "View All Reviews"}
+							</button>
+						)}
 					</div>
 
 				</div>
+
+				<RelatedProducts products={relatedProducts} />
 
 				<ReviewModal
 					isOpen={reviewModalOpen}
 					onClose={() =>
 						setReviewModalOpen(false)
 					}
+					productSlug={product.slug}
 				/>
 			</div>
 		</div>

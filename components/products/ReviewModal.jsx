@@ -7,16 +7,17 @@ import "./ReviewModal.css";
 export default function ReviewModal({
 	isOpen,
 	onClose,
-	onSubmit,
+	productSlug,
 }) {
 	const [name, setName] = useState("");
 	const [title, setTitle] = useState("");
 	const [comment, setComment] = useState("");
 	const [rating, setRating] = useState(5);
+	const [loading, setLoading] = useState(false);
 
 	if (!isOpen) return null;
 
-	const handleSubmit = (e) => {
+	const handleSubmit = async (e) => {
 		e.preventDefault();
 
 		if (
@@ -26,21 +27,46 @@ export default function ReviewModal({
 		)
 			return;
 
-		if (onSubmit) {
-			onSubmit({
-				name,
-				title,
-				text: comment,
-				rating,
-			});
+		try {
+			setLoading(true);
+
+			const res = await fetch(
+				`/api/products/${productSlug}/review`,
+				{
+					method: "POST",
+					headers: {
+						"Content-Type":
+							"application/json",
+					},
+					body: JSON.stringify({
+						name,
+						title,
+						text: comment,
+						rating,
+					}),
+				}
+			);
+
+			if (!res.ok) {
+				alert("Failed to submit review");
+				return;
+			}
+
+			setName("");
+			setTitle("");
+			setComment("");
+			setRating(5);
+
+			onClose();
+
+			window.location.reload();
+
+		} catch (error) {
+			console.error(error);
+			alert("Something went wrong");
+		} finally {
+			setLoading(false);
 		}
-
-		setName("");
-		setTitle("");
-		setComment("");
-		setRating(5);
-
-		onClose();
 	};
 
 	return (
@@ -88,8 +114,7 @@ export default function ReviewModal({
 										<Star
 											size={26}
 											fill={
-												star <=
-												rating
+												star <= rating
 													? "#ffc107"
 													: "transparent"
 											}
@@ -146,8 +171,11 @@ export default function ReviewModal({
 					<button
 						type="submit"
 						className="review-submit-btn"
+						disabled={loading}
 					>
-						Submit Review
+						{loading
+							? "Submitting..."
+							: "Submit Review"}
 					</button>
 
 				</form>
