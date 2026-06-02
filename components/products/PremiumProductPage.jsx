@@ -461,7 +461,10 @@ export default function PremiumProductPage({
 
 				</div>
 
-				<RelatedProducts products={relatedProducts} />
+				<RelatedProducts
+					category={product.category}
+					currentSlug={product.slug}
+				/>
 
 				<ReviewModal
 					isOpen={reviewModalOpen}

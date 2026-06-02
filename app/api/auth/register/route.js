@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 export const dynamic = "force-dynamic";
 import connectDB from "@/lib/mongodb";
 import User from "@/models/User";
+import { resend } from "@/lib/resend";
 import { signToken, setAuthCookie } from "@/lib/auth";
 
 export async function POST(request) {
@@ -25,6 +26,39 @@ export async function POST(request) {
 
 		const user = await User.create({ name, email, password });
 
+
+
+			try {
+				await resend.emails.send({
+					from: "Yantrar <info@yantrar.com>",
+					to: user.email,
+					subject: "Welcome to Yantrar 🚀",
+					html: `
+						<div style="font-family:Arial,sans-serif;max-width:600px;margin:auto">
+							<h2>Welcome to Yantrar, ${user.name}!</h2>
+
+							<p>Your account has been created successfully.</p>
+
+							<p>You can now explore our products and services.</p>
+
+							<p>
+								<strong>Email:</strong> ${user.email}
+							</p>
+
+							<br>
+
+							<p>Thank you for joining Yantrar.</p>
+
+							<p>
+								Team Yantrar<br>
+								info@yantrar.com
+							</p>
+						</div>
+					`,
+				});
+			} catch (mailError) {
+				console.error("Welcome Email Error:", mailError);
+			}
 		const token = signToken({ id: user._id, email: user.email, role: user.role, name: user.name });
 
 		const res = NextResponse.json(

@@ -16,6 +16,10 @@ export default async function ProductPage({ params }) {
 		return <div>Product not found</div>;
 	}
 
+	console.log("PRODUCT:", product.name);
+	console.log("CATEGORY:", product.category);
+	console.log("TYPE:", typeof product.category);
+
 	const relatedProducts = await Product.find({
 		category: product.category,
 		_id: { $ne: product._id },
