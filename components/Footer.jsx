@@ -87,8 +87,8 @@ export default function Footer() {
 
           <p className="footer-contact-item">
             <FiPhone />
-            <a href="tel:+918005572395">
-              +91 8005572395
+            <a href="tel:+919116755457">
+              +91 9116755457
             </a>
           </p>
 
@@ -106,7 +106,7 @@ export default function Footer() {
 			</a>
 
 			<a
-				href="https://wa.me/918005572395"
+				href="https://wa.me/919116755457"
 				target="_blank"
 				rel="noopener noreferrer"
 				aria-label="WhatsApp"
@@ -115,7 +115,7 @@ export default function Footer() {
 			</a>
 
 			<a
-				href="tel:+918005572395"
+				href="tel:+919116755457"
 				aria-label="Call Us"
 			>
 				<FiPhone />

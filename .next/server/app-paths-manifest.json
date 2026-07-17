@@ -1,8 +1,11 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/product/[slug]/page": "app/product/[slug]/page.js",
-  "/api/products/route": "app/api/products/route.js",
   "/category/[slug]/page": "app/category/[slug]/page.js",
-  "/api/auth/me/route": "app/api/auth/me/route.js",
-  "/api/categories/route": "app/api/categories/route.js",
-  "/page": "app/page.js"
+  "/blog/[slug]/page": "app/blog/[slug]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/api/products/route": "app/api/products/route.js",
+  "/about/page": "app/about/page.js",
+  "/page": "app/page.js",
+  "/api/categories/route": "app/api/categories/route.js"
 }
