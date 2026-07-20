@@ -10,7 +10,7 @@ const blog = {
   category: "Agriculture",
 
   image:
-    "/blog/agriculture.png",
+    "/blog/agriculture.webp",
 
   readTime: "15 min read",
 

@@ -11,22 +11,22 @@ export default function OurVertices() {
   const items = [
     {
       title: "Agriculture",
-      image: "/agriculture.jpg",
+      image: "/agriculture.webp",
       slug: "agriculture",
     },
     {
       title: "Survey & Mapping",
-      image: "/survey.png",
+      image: "/survey.webp",
       slug: "survey-mapping",
     },
     {
       title: "Inspection",
-      image: "/inspection.png",
+      image: "/inspection.webp",
       slug: "inspection",
     },
     {
       title: "Surveillance",
-      image: "/security.png",
+      image: "/security.webp",
       slug: "surveillance",
     },
   ];

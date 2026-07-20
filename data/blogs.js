@@ -9,7 +9,7 @@ const blogs = [
     title: "How AI Is Transforming Autonomous Drones",
     slug: "ai-autonomous-drones",
     category: "AI & Automation",
-    image: "/blog/ai.png",
+    image: "/blog/ai.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-16",
@@ -30,7 +30,7 @@ FULL CONTENT
       "autonomous-drone-navigation-explained",
     category: "AI & Automation",
     image:
-      "/blog/autonomous-navigation.png",
+      "/blog/autonomous-navigation.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-15",
@@ -51,7 +51,7 @@ FULL CONTENT
       "drone-swarm-technology-explained",
     category: "AI & Automation",
     image:
-      "/blog/drone-swarm.png",
+      "/blog/drone-swarm.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-14",
@@ -76,7 +76,7 @@ FULL CONTENT
       "precision-agriculture-drones",
     category: "Agriculture",
     image:
-      "/blog/agriculture.png",
+      "/blog/agriculture.webp",
     readTime: "15 min read",
     date: "June 2026",
     publishedAt: "2026-06-13",
@@ -97,7 +97,7 @@ FULL CONTENT
       "best-agricultural-drones",
     category: "Agriculture",
     image:
-      "/blog/agri-drones.png",
+      "/blog/agri-drones.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-12",
@@ -122,7 +122,7 @@ FULL CONTENT
       "drone-lidar-vs-photogrammetry",
     category: "Drone Technology",
     image:
-      "/blog/lidar-vs-photo.png",
+      "/blog/lidar-vs-photo.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-11",
@@ -143,7 +143,7 @@ FULL CONTENT
       "thermal-imaging-drones",
     category: "Drone Technology",
     image:
-      "/blog/thermal.png",
+      "/blog/thermal.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-10",
@@ -164,7 +164,7 @@ FULL CONTENT
       "rtk-vs-ppk-drones",
     category: "Drone Technology",
     image:
-      "/blog/rtk.png",
+      "/blog/rtk.webp",
     readTime: "11 min read",
     date: "June 2026",
     publishedAt: "2026-06-09",
@@ -189,7 +189,7 @@ FULL CONTENT
       "security-surveillance-drones",
     category: "Surveillance",
     image:
-      "/blog/security.png",
+      "/blog/security.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-08",
@@ -214,7 +214,7 @@ FULL CONTENT
       "search-and-rescue-drones",
     category: "Public Safety",
     image:
-      "/blog/rescue.png",
+      "/blog/rescue.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-07",
@@ -239,7 +239,7 @@ FULL CONTENT
       "industrial-drone-inspections",
     category: "Industrial Inspections",
     image:
-      "/blog/industrial.png",
+      "/blog/industrial.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-06",
@@ -264,7 +264,7 @@ FULL CONTENT
       "commercial-drone-buying-guide",
     category: "Commercial Guides",
     image:
-      "/blog/buying-guide.png",
+      "/blog/buying-guide.webp",
     readTime: "16 min read",
     date: "June 2026",
     publishedAt: "2026-06-05",
@@ -289,7 +289,7 @@ FULL CONTENT
       "best-fpv-racing-drones",
     category: "FPV Systems",
     image:
-      "/blog/fpv.png",
+      "/blog/fpv.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-04",

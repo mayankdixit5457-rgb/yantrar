@@ -74,13 +74,13 @@ export default function Header() {
 					<Link href="/" className="logo">
 
 						<img
-							src="/logo/logo.png"
+							src="/logo/logo.webp"
 							className="logo-icon"
 							alt="logo"
 						/>
 
 						<img
-							src="/logo/text.png"
+							src="/logo/text.webp"
 							className="logo-text"
 							alt="Yantrar"
 						/>

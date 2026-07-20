@@ -51,10 +51,10 @@ export default function Hero() {
 
 	/* SLIDER IMAGES */
 	const images = [
-		"/hero/hero1.jpg",
-		"/hero2.png",
-		"/hero/hero3.png",
-		"/hero/hero4.png",
+		"/hero/hero1.webp",
+		"/hero2.webp",
+		"/hero/hero3.webp",
+		"/hero/hero4.webp",
 	];
 
 	const [current, setCurrent] = useState(0);

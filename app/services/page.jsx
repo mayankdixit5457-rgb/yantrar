@@ -7,25 +7,25 @@ const services = [
     slug: "agriculture",
     title: "Agriculture",
     desc: "AI-powered precision crop systems",
-    image: "agriculture.jpg",
+    image: "agriculture.webp",
   },
   {
     slug: "survey-mapping",
     title: "Survey & Mapping",
     desc: "RTK terrain intelligence & analytics",
-    image: "/survey.png",
+    image: "/survey.webp",
   },
   {
     slug: "inspection",
     title: "Inspection",
     desc: "Autonomous industrial diagnostics",
-    image: "inspection.png",
+    image: "inspection.webp",
   },
   {
     slug: "surveillance",
     title: "Surveillance",
     desc: "Real-time aerial monitoring systems",
-    image: "security.png",
+    image: "security.webp",
   },
 ];
 

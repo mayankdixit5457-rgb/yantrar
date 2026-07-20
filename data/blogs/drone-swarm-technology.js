@@ -10,7 +10,7 @@ const blog = {
   category: "AI & Automation",
 
   image:
-    "/blog/drone-swarm.png",
+    "/blog/drone-swarm.webp",
 
   readTime: "13 min read",
 

@@ -10,7 +10,7 @@ const blog = {
   category: "Drone Technology",
 
   image:
-    "/blog/lidar-vs-photo.png",
+    "/blog/lidar-vs-photo.webp",
 
   readTime: "16 min read",
 

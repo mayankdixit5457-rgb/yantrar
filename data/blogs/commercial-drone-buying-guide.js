@@ -10,7 +10,7 @@ const blog = {
   category: "Commercial Guides",
 
   image:
-    "/blog/buying-guide.png",
+    "/blog/buying-guide.webp",
 
   readTime: "18 min read",
 

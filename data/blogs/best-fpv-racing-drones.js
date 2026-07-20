@@ -10,7 +10,7 @@ const blog = {
   category: "FPV Systems",
 
   image:
-    "/blog/fpv.png",
+    "/blog/fpv.webp",
 
   readTime: "17 min read",
 

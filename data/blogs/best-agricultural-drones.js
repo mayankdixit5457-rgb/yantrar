@@ -10,7 +10,7 @@ const blog = {
   category: "Agriculture",
 
   image:
-    "/blog/agri-drones.png",
+    "/blog/agri-drones.webp",
 
   readTime: "17 min read",
 

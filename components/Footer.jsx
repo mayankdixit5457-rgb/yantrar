@@ -26,12 +26,12 @@ export default function Footer() {
         <div className="footer-brand">
           <div className="footer-logo">
             <img
-              src="/logo/logo.png"
+              src="/logo/logo.webp"
               className="footer-logo-icon"
               alt="Yantrar Logo"
             />
             <img
-              src="/logo/text.png"
+              src="/logo/text.webp"
               className="footer-logo-text"
               alt="Yantrar"
             />

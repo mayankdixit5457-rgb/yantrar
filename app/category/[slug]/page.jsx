@@ -102,7 +102,7 @@ export default async function CategoryPage({ params }) {
 							>
 								<div className="category-image-wrap">
 									<img
-										src={cat.image || "/placeholder-category.jpg"}
+										src={cat.image || "/placeholder-category.webp"}
 										alt={cat.name}
 										className="category-image"
 									/>
@@ -129,7 +129,7 @@ export default async function CategoryPage({ params }) {
 										<img
 											src={
 												product.images?.[0] ||
-												"/placeholder-product.jpg"
+												"/placeholder-product.webp"
 											}
 											alt={product.name}
 											className="product-image"

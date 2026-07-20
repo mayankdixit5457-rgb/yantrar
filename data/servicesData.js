@@ -8,8 +8,8 @@ export const services = {
 			"Smart crop spraying & precision farming solutions for modern agriculture",
 
 		images: [
-			"/agriculture1.jpg",
-			"/agriculture2.jpg",
+			"/agriculture1.webp",
+			"/agriculture2.webp",
 			"/agriculture3.webp",
 		],
 
@@ -43,9 +43,9 @@ export const services = {
 			"Advanced aerial monitoring & intelligent security systems",
 
 		images: [
-			"/surveillance1.jpg",
-			"/surveillance2.jpg",
-			"/surveillance3.jpg",
+			"/surveillance1.webp",
+			"/surveillance2.webp",
+			"/surveillance3.webp",
 		],
 
 		problem:
@@ -78,9 +78,9 @@ export const services = {
 			"Industrial inspection powered by autonomous drone systems",
 
 		images: [
-			"/inspection1.jpg",
-			"/inspection2.jpg",
-			"/inspection3.jpg",
+			"/inspection1.webp",
+			"/inspection2.webp",
+			"/inspection3.webp",
 		],
 
 		problem:
@@ -113,9 +113,9 @@ export const services = {
 			"Precision aerial surveying & advanced terrain mapping solutions",
 
 		images: [
-			"/survey1.jpg",
-			"/survey2.jpg",
-			"/survey3.jpg",
+			"/survey1.webp",
+			"/survey2.webp",
+			"/survey3.webp",
 		],
 
 		problem:

@@ -10,7 +10,7 @@ const blog = {
   category: "Surveillance",
 
   image:
-    "/blog/security.png",
+    "/blog/security.webp",
 
   readTime: "16 min read",
 

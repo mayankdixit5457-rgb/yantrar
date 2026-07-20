@@ -10,7 +10,7 @@ const blog = {
   category: "Drone Technology",
 
   image:
-    "/blog/thermal.png",
+    "/blog/thermal.webp",
 
   readTime: "15 min read",
 

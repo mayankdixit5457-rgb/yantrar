@@ -37,7 +37,7 @@ export default function AdminLayout({ children }) {
 		<div className="admin-layout">
 			<aside className="admin-sidebar">
 				<div className="sidebar-brand">
-					<img src="/logo.jpeg" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '50%', objectFit: 'cover' }} />
+					<img src="/logo.webp" alt="Logo" style={{ width: '28px', height: '28px', borderRadius: '50%', objectFit: 'cover' }} />
 					<span>Yantrar Admin</span>
 				</div>
 

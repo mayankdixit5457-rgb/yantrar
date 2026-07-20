@@ -32,15 +32,15 @@ export default function BlogPage() {
   ];
 
   const categoryImages = {
-    "All": "/blog/all.png",
-    "AI & Automation": "/blog/automation.png",
-    "Drone Technology": "/blog/lidar.png",
-    "Agriculture": "/blog/agri-drones.png",
-    "Surveillance": "/blog/surveillance.png",
-    "Public Safety": "/blog/rescue.png",
-    "Industrial Inspections": "/blog/inspection.png",
-    "Commercial Guides": "/blog/guide.png",
-    "FPV Systems": "/blog/fpvsystems.png",
+    "All": "/blog/all.webp",
+    "AI & Automation": "/blog/automation.webp",
+    "Drone Technology": "/blog/lidar.webp",
+    "Agriculture": "/blog/agri-drones.webp",
+    "Surveillance": "/blog/surveillance.webp",
+    "Public Safety": "/blog/rescue.webp",
+    "Industrial Inspections": "/blog/inspection.webp",
+    "Commercial Guides": "/blog/guide.webp",
+    "FPV Systems": "/blog/fpvsystems.webp",
   };
 
   /* ========================= */

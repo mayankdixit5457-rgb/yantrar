@@ -17,7 +17,7 @@ export default function ComponentProductPage({
 		useState([]);
 
 	const [selectedImage, setSelectedImage] =
-		useState("/placeholder-product.jpg");
+		useState("/placeholder-product.webp");
 
 	useEffect(() => {
 		let mounted = true;
@@ -64,7 +64,7 @@ export default function ComponentProductPage({
 
 				setSelectedImage(
 					filtered[0] ||
-						"/placeholder-product.jpg"
+						"/placeholder-product.webp"
 				);
 			}
 		}
@@ -83,7 +83,7 @@ export default function ComponentProductPage({
 			price: product.price,
 			image:
 				validImages[0] ||
-				"/placeholder-product.jpg",
+				"/placeholder-product.webp",
 			slug: product.slug,
 		});
 	};
@@ -97,7 +97,7 @@ export default function ComponentProductPage({
 			price: product.price,
 			image:
 				validImages[0] ||
-				"/placeholder-product.jpg",
+				"/placeholder-product.webp",
 			slug: product.slug,
 		});
 

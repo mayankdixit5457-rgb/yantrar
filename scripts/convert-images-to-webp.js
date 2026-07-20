@@ -11,7 +11,7 @@ const PUBLIC_DIR = path.join(__dirname, "..", "public");
 
 console.log("🔍 Scanning:", PUBLIC_DIR);
 
-const files = await fg(["**/*.jpg", "**/*.jpeg", "**/*.png"], {
+const files = await fg(["**/*.webp", "**/*.webp", "**/*.webp"], {
   cwd: PUBLIC_DIR,
   absolute: true,
 });

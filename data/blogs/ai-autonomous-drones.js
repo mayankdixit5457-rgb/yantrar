@@ -7,7 +7,7 @@ const blog = {
 
   category: "AI & Automation",
 
-  image: "/blog/ai.png",
+  image: "/blog/ai.webp",
 
   readTime: "12 min read",
 

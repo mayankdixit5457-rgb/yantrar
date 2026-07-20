@@ -10,7 +10,7 @@ const blog = {
   category: "Industrial Inspections",
 
   image:
-    "/blog/inspection.png",
+    "/blog/inspection.webp",
 
   readTime: "16 min read",
 

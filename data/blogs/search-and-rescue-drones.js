@@ -10,7 +10,7 @@ const blog = {
   category: "Public Safety",
 
   image:
-    "/blog/rescue.png",
+    "/blog/rescue.webp",
 
   readTime: "16 min read",
 

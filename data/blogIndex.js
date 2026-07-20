@@ -4,7 +4,7 @@ const blogIndex = [
     title: "How AI Is Transforming Autonomous Drones",
     slug: "ai-autonomous-drones",
     category: "AI & Automation",
-    image: "/blog/ai.png",
+    image: "/blog/ai.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-16",
@@ -22,7 +22,7 @@ const blogIndex = [
       "autonomous-drone-navigation-explained",
     category: "AI & Automation",
     image:
-      "/blog/autonomous-navigation.png",
+      "/blog/autonomous-navigation.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-15",
@@ -43,7 +43,7 @@ const blogIndex = [
       "drone-swarm-technology-explained",
     category: "AI & Automation",
     image:
-      "/blog/drone-swarm.png",
+      "/blog/drone-swarm.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-14",
@@ -61,7 +61,7 @@ const blogIndex = [
       "precision-agriculture-drones",
     category: "Agriculture",
     image:
-      "/blog/agriculture.png",
+      "/blog/agriculture.webp",
     readTime: "15 min read",
     date: "June 2026",
     publishedAt: "2026-06-13",
@@ -81,7 +81,7 @@ const blogIndex = [
       "best-agricultural-drones",
     category: "Agriculture",
     image:
-      "/blog/agri-drones.png",
+      "/blog/agri-drones.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-12",
@@ -99,7 +99,7 @@ const blogIndex = [
       "drone-lidar-vs-photogrammetry",
     category: "Drone Technology",
     image:
-      "/blog/lidar-vs-photo.png",
+      "/blog/lidar-vs-photo.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-11",
@@ -117,7 +117,7 @@ const blogIndex = [
       "thermal-imaging-drones",
     category: "Drone Technology",
     image:
-      "/blog/thermal.png",
+      "/blog/thermal.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-10",
@@ -135,7 +135,7 @@ const blogIndex = [
       "rtk-vs-ppk-drones",
     category: "Drone Technology",
     image:
-      "/blog/rtk.png",
+      "/blog/rtk.webp",
     readTime: "11 min read",
     date: "June 2026",
     publishedAt: "2026-06-09",
@@ -153,7 +153,7 @@ const blogIndex = [
       "security-surveillance-drones",
     category: "Surveillance",
     image:
-      "/blog/security.png",
+      "/blog/security.webp",
     readTime: "13 min read",
     date: "June 2026",
     publishedAt: "2026-06-08",
@@ -171,7 +171,7 @@ const blogIndex = [
       "search-and-rescue-drones",
     category: "Public Safety",
     image:
-      "/blog/rescue.png",
+      "/blog/rescue.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-07",
@@ -189,7 +189,7 @@ const blogIndex = [
       "industrial-drone-inspections",
     category: "Industrial Inspections",
     image:
-      "/blog/inspection.png",
+      "/blog/inspection.webp",
     readTime: "14 min read",
     date: "June 2026",
     publishedAt: "2026-06-06",
@@ -207,7 +207,7 @@ const blogIndex = [
       "commercial-drone-buying-guide",
     category: "Commercial Guides",
     image:
-      "/blog/buying-guide.png",
+      "/blog/buying-guide.webp",
     readTime: "16 min read",
     date: "June 2026",
     publishedAt: "2026-06-05",
@@ -225,7 +225,7 @@ const blogIndex = [
       "best-fpv-racing-drones",
     category: "FPV Systems",
     image:
-      "/blog/fpv.png",
+      "/blog/fpv.webp",
     readTime: "12 min read",
     date: "June 2026",
     publishedAt: "2026-06-04",
