@@ -134,10 +134,10 @@ export default function TrackOrder() {
 				<h3>Need Help?</h3>
 				<p>Contact our support team</p>
 				<div className="help-options">
-					<a href="https://wa.me/919876543210" className="help-whatsapp">
+					<a href="https://wa.me/919116755457" className="help-whatsapp">
 						💬 WhatsApp
 					</a>
-					<a href="mailto:support@artisana.in" className="help-email">
+					<a href="mailto:info@yantrar.com" className="help-email">
 						📧 Email
 					</a>
 				</div>
